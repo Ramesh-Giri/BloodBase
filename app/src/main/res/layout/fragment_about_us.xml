@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.navigationdrawerwithswipetabs.AboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_marginTop="-30dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/location"
+        android:alpha=".8"
+
+        />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="210dp"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#Ed2334"
+        android:layout_height="wrap_content"
+        android:text="Hello Developers"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Located at Balaju-16, Kathmandu"
+        android:textSize="20dp"
+        />
+
+    <TextView
+       android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:layout_gravity="bottom"
+        android:textColor="#444444"
+        android:layout_height="wrap_content"
+        android:text="Contact for anykind of android application development"
+        android:textSize="12dp"
+        />
+
+</FrameLayout>

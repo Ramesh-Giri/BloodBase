@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "755738192397",
+    "firebase_url": "https://blood-donor-nepal-35a64.firebaseio.com",
+    "project_id": "blood-donor-nepal-35a64",
+    "storage_bucket": "blood-donor-nepal-35a64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755738192397:android:3c231410b5d99319",
+        "android_client_info": {
+          "package_name": "com.example.admin.navigationdrawerwithswipetabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755738192397-hv05talki85smgggh9gkloqpdu38618b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.navigationdrawerwithswipetabs",
+            "certificate_hash": "9e5fa86f20d478cd1f23803856b809e2e1c10ea3"
+          }
+        },
+        {
+          "client_id": "755738192397-8p3k8o2tlp4ajvprfla47og5tmid3ok2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA90LNIumcheh-cjKxUtz-sO0uF_92vwnA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755738192397-8p3k8o2tlp4ajvprfla47og5tmid3ok2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

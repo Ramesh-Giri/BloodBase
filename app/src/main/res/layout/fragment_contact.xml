@@ -1,0 +1,185 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="#a6172d"
+        android:text="Ramesh Giri"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:textStyle="bold"
+        />
+
+<de.hdodenhof.circleimageview.CircleImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profile_image"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="8dp"
+
+    android:src="@drawable/me"
+
+    app:civ_border_color="#FF000000" />
+
+
+    <LinearLayout
+        android:id="@+id/interest"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:src="@drawable/name"/>
+
+         <TextView
+             android:layout_marginLeft="20dp"
+             android:layout_width="0dp"
+             android:layout_height="50dp"
+             android:layout_weight="9"
+             android:text="Ramesh Giri"
+             android:textSize="20sp"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/interest"
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:id="@+id/hello"
+            android:src="@drawable/phone"/>
+
+        <TextView
+          android:id="@+id/num"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:layout_marginLeft="16dp"
+            android:text="(+977)9843215838"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/number"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:id="@+id/ema"
+            android:src="@drawable/mail"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="9"
+            android:text="kramez.kreator@hotmail.com"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_above="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/darker_gray">
+    </View>
+
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:id="@+id/contact"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="35dp"
+            android:src="@drawable/phone"
+            android:id="@+id/callnow"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#a6172d"
+            android:text="Call"
+            android:layout_gravity="center"
+            android:layout_weight="0.4"
+            android:id="@+id/phone"
+            />
+
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="35dp"
+            android:src="@drawable/sms"
+            android:id="@+id/smsnow"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/sms"
+            android:text="SMS"
+            android:textColor="#a6172d"
+            android:layout_gravity="center"
+            android:layout_weight="0.4"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/darker_gray">
+    </View>
+
+</RelativeLayout>

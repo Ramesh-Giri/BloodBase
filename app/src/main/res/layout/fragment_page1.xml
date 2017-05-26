@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_help"
+        android:layout_marginBottom="50dp"
+        android:choiceMode="singleChoice">
+    </ListView>
+
+
+    <View
+
+        android:layout_above="@+id/inputs"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/holo_red_dark"
+        >
+
+    </View>
+
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/inputs"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#f4f4f4" >
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            />
+
+
+        <EditText
+            android:id="@+id/post"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write your message including blood group!!"
+            />
+
+
+        <EditText
+            android:id="@+id/numb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/adres"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+        <EditText
+            android:id="@+id/set_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POST"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ask4help"
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ask for Help"
+        android:layout_marginLeft="110dp"
+        />
+
+    </RelativeLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BloodBase</string>
+    <string name="action_exit">EXIT</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="tips"><font fgcolor='#FF8E8E93'>Stopped</font>TIPS</string>
+    <string name="important"><font fgcolor='#FF8E8E93'>Stopped</font>IMPORTANT NO.</string>
+    <string name="others"><font fgcolor='#FF8E8E93'>Stopped</font>OTHERS</string>
+
+    <string-array name="spinner_items">
+        <item>A+ve</item>
+        <item>A-ve</item>
+        <item>B+ve</item>
+        <item>B-ve</item>
+        <item>AB+ve</item>
+        <item>AB-ve</item>
+        <item>O+ve</item>
+        <item>O-ve</item>
+
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

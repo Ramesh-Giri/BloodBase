@@ -1,0 +1,189 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.rameshgiri.bloodbase.Register">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <LinearLayout
+            android:id="@+id/activity_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="Register Yourself"
+                android:textAllCaps="true"
+                android:textColor="#111111"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:text="Fullname:"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:text="Mobile Number:"
+                android:textSize="15sp" />
+
+
+            <EditText
+                android:id="@+id/mob_num"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:inputType="number" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:text="Address"
+                android:textSize="15sp"
+                android:visibility="gone"
+                />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="15dp"
+                android:text="Mostly available on.."
+                android:textSize="15sp" />
+
+
+            <CheckBox
+                android:id="@+id/sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunday"
+
+                />
+
+            <CheckBox
+                android:id="@+id/mon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monday"
+
+                />
+
+            <CheckBox
+                android:id="@+id/tues"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuesday"
+
+                />
+
+            <CheckBox
+                android:id="@+id/wed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wednesday"
+
+                />
+
+            <CheckBox
+                android:id="@+id/thurs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thursday"
+
+                />
+
+            <CheckBox
+                android:id="@+id/fri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friday"
+
+                />
+
+            <CheckBox
+                android:id="@+id/sat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturday" />
+
+            <TextView
+                android:id="@+id/available_day"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Blood Group"
+                android:textSize="15sp"
+
+                />
+
+            <Spinner
+
+                android:id="@+id/spinner_blood"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="15dp"
+                android:entries="@array/spinner_items"
+
+                />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="50dp"
+                android:text="Register"
+
+                />
+
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="-50dp"
+                android:text="Cancel" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+</ScrollView>
